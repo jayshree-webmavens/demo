@@ -1,0 +1,448 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #222;
+}
+.navbar-brand {
+    width: 15%;
+}
+.navbar-brand img {
+    width: 100%;
+}
+.navbar.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 21, .5);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: 400;
+    margin-left: 6px;
+    padding: 0px 8px;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+.navbar {
+    padding: 20px 0px;
+    border-bottom: 1px solid #cdcaca;
+    background-color: #ebedef;
+}
+
+
+.dropdown-item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 0.5rem 1.25rem;
+    clear: both;
+    font-weight: 400;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0 !;
+    color: #4f5d73;
+}
+
+.demo {
+    background: #ffc107;
+    line-height: 50px;
+    padding: 6px 10px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 10px;
+    /* text-decoration: none; */
+    color: #000;
+}
+
+.login {
+    width: 115px;
+    background: #ffc107;
+    margin: 0 3px;
+    text-align: center;
+    /* text-decoration: none; */
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    border-radius: 3px;
+}
+
+input {
+    outline: none !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.form-control {
+    border-bottom: 0.1px solid #0000002f !important;
+    padding-bottom: 6px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    padding-left: 55px;
+    margin-bottom: 6px;
+}
+
+.form-control:focus {
+    border-bottom: 0.1px solid #00000052 !important;
+}
+
+.input-group {
+    margin-left: 13px;
+    width: 96% !important;
+}
+
+::placeholder {
+    color: #768192 !important;
+    font-weight: 300;
+    font-size: 14.5px;
+    letter-spacing: 0.5px;
+}
+
+.icons i {
+    position: absolute;
+    z-index: 100;
+    top: 8px;
+    left: 15px;
+    color: #5a687c;
+    font-size: 18px;
+}
+
+input:focus {
+    box-shadow: none !important;
+}
+
+.register {
+    margin-top: 70px;
+}
+
+.register_1 {
+    color: #768192 !important;
+    font-size: 20.6px;
+    font-weight: 500;
+    margin-bottom: 1.8rem;
+    display: block;
+}
+
+.text-h1 {
+    font-weight: bold;
+    color: #faaa07;
+    font-size: 2.1875rem;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.card-body {
+    background-color: #fff;
+}
+
+.card {
+    border: 0 !important;
+
+}
+
+.btn-register {
+    width: 100%;
+    color: #fff;
+    background-color: #faaa07;
+    border: 1px solid #faaa07;
+    font-weight: 500;
+    padding: 9px 0.75rem 10px;
+    font-size: 17px;
+    transition: .5s all ease;
+    border-radius: 5px !important;
+}
+
+.btn-register:hover {
+    background-color: #ee9f00f1;
+    color: #ffffff;
+    border: 1px solid #ee9f00f1;
+}
+
+legend {
+    margin: 0px;
+    color: #333 !important;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+/* radio btn  */
+
+/* .radio_input{
+    display: none;
+}
+
+.radio_labal{
+    padding: 7px 31px 8px;
+    border: 0.5px solid #00000057;
+    color: #000000be;
+    cursor: pointer;
+    margin-right: 9px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 15.5px;
+    letter-spacing: 0.5px;
+}
+#company:checked ~ .labal_1,
+#member:checked ~ .labal_2{
+    background-color: #707efa;
+    color: #fff;
+    border: 1px solid #707efa;
+} */
+
+
+
+/* footer  */
+.footer {
+    width: 100%;
+    margin-top: 70px;
+    padding-top: 45px;
+    background: #EEF0F2;
+}
+
+.footer-logo {
+    width: 100%;
+    text-align: center;
+}
+.footer-logo img {
+    width: 20%;
+}
+.footer-links {
+    width: 100%;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.footer-links ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.footer-links ul li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.footer-links ul li a {
+    /* text-decoration: none; */
+    font-size: 16px;
+    color: #222;
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.social-media {
+    width: 100%;
+    margin-top: 40px;
+    padding: 0px;
+}
+
+.social-media span {
+    font-size: 16px;
+    color: #222;
+    line-height: 40px;
+    display: block;
+    font-weight: 300;
+}
+
+.social-media ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.social-media ul li {
+    margin-right: 8px;
+    padding: 0px;
+    list-style: none;
+    display: inline-block;
+}
+
+.fa-facebook-f {
+    background: #3B5998;
+    color: white;
+    width: 25px;
+    height: 25px;
+    line-height: 25px !important;
+}
+
+.fa-linkedin-in {
+    background: #007bb5;
+    color: white;
+    width: 25px;
+    height: 25px;
+    line-height: 25px !important;
+
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-brands {
+    padding: 0px;
+    font-size: 20px;
+    /* width: 20px; */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50px;
+    margin: 0px;
+    font-size: 14px/1;
+}
+
+.copyright {
+    width: 100%;
+    border-top: 1px solid #cccbcb;
+    padding: 20px 0px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.copyright p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+
+/* radio  */
+
+.switches-container {
+    width: 14rem;
+    position: relative;
+    display: flex;
+    padding: 0;
+    position: relative;
+    /* background: #faaa07; */
+    border: 1px solid #707efa;
+    line-height: 2.7rem;
+    border-radius: 5px;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+/* input (radio) for toggling. hidden - use labels for clicking on */
+.switches-container input {
+    visibility: hidden;
+    position: absolute;
+    top: 0;
+}
+
+/* labels for the input (radio) boxes - something to click on */
+.switches-container label {
+    width: 50%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    cursor: pointer;
+    color: #707efa;
+}
+
+/* switch highlighters wrapper (sliding left / right) 
+    - need wrapper to enable the even margins around the highlight box
+*/
+.switch-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+    padding: 0.15rem;
+    z-index: 3;
+    transition: transform .5s cubic-bezier(.77, 0, .175, 1);
+    /* transition: transform 1s; */
+}
+
+/* switch box highlighter */
+.switch {
+    border-radius: 5px;
+    background: #707efa;
+    height: 100%;
+}
+
+/* switch box labels
+    - default setup
+    - toggle afterwards based on radio:checked status 
+*/
+.switch div {
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+    display: block;
+    color: white;
+    transition: opacity .2s cubic-bezier(.77, 0, .175, 1) .125s;
+    will-change: opacity;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* slide the switch box from right to left */
+.switches-container input:nth-of-type(1):checked~.switch-wrapper {
+    transform: translateX(0%);
+}
+
+/* slide the switch box from left to right */
+.switches-container input:nth-of-type(2):checked~.switch-wrapper {
+    transform: translateX(100%);
+}
+
+/* toggle the switch box labels - first checkbox:checked - show first switch div */
+.switches-container input:nth-of-type(1):checked~.switch-wrapper .switch div:nth-of-type(1) {
+    opacity: 1;
+}
+
+/* toggle the switch box labels - second checkbox:checked - show second switch div */
+.switches-container input:nth-of-type(2):checked~.switch-wrapper .switch div:nth-of-type(2) {
+    opacity: 1;
+}
+
+
+
+
+@media (max-width: 991px) {
+    .card {
+        margin-right: 0 !important;
+    }
+
+    .card-body {
+        padding: 0rem 6rem 3rem 6rem !important;
+    }
+
+    .card-wrapper {
+        flex-direction: column-reverse;
+
+    }
+}
+
+@media (max-width: 767px) {
+    .card-body {
+        padding: 0rem 0 3rem 0 !important;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .card-body {
+        padding: 0.7rem 0.7rem 2rem 0.7rem !important;
+    }
+
+    .input-group {
+        margin-left: 0px;
+    }
+    .footer-logo img {
+        width: 50%;
+    }
+}
